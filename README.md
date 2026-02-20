@@ -1,3 +1,7 @@
+## Architecture Overview
+
+![Ragionyx Architecture](ragionyx-architecture.png)
+
 # Ragionyx  
 ### Retrieval-Augmented PDF Intelligence Engine
 
@@ -7,7 +11,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?style=for-the-badge&logo=streamlit)
 ![OpenAI](https://img.shields.io/badge/OpenAI-Embeddings-black?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-[![Live App](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](YOUR_STREAMLIT_LINK)
+[![Live App](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](ragionyx-rag-powered-pdf-intelligence-engine-hzj7uxmp5zrpr3894.streamlit.app)
 
 </p>
 
@@ -67,7 +71,7 @@ The retrieval and generation layers are intentionally decoupled for modular scal
 
 Production-ready application available here:
 
-👉 **[Launch Ragionyx](YOUR_STREAMLIT_LINK)**
+👉 **[Launch Ragionyx](ragionyx-rag-powered-pdf-intelligence-engine-hzj7uxmp5zrpr3894.streamlit.app)**
 
 ---
 
@@ -89,4 +93,4 @@ This project is licensed under the MIT License.
 ## Author
 
 **Praveen Kumar Kota**  
-AI / ML Engineer  
+AI Engineer
