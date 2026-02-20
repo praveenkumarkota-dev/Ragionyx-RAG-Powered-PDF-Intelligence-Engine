@@ -25,14 +25,6 @@ Instead of relying on model memory, the system retrieves relevant document conte
 
 ---
 
-## System Architecture
-
-<p align="center">
-  <img src="assets/ragionyx-architecture.png" alt="Ragionyx Architecture Diagram" width="100%">
-</p>
-
----
-
 ## How It Works
 
 1. **PDF Ingestion** – Extract structured text from uploaded documents  
@@ -71,7 +63,7 @@ The retrieval and generation layers are intentionally decoupled for modular scal
 
 Production-ready application available here:
 
-👉 **[Launch Ragionyx](ragionyx-rag-powered-pdf-intelligence-engine-hzj7uxmp5zrpr3894.streamlit.app)**
+👉 **[Launch Ragionyx](https//:ragionyx-rag-powered-pdf-intelligence-engine-hzj7uxmp5zrpr3894.streamlit.app)**
 
 ---
 
