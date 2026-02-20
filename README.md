@@ -1,12 +1,11 @@
 # Ragionyx  
-### Transform PDFs into Context-Aware Intelligence
+### Retrieval-Augmented PDF Intelligence Engine
 
 <p align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?style=for-the-badge&logo=streamlit)
 ![OpenAI](https://img.shields.io/badge/OpenAI-Embeddings-black?style=for-the-badge)
-![FAISS](https://img.shields.io/badge/VectorDB-FAISS-blueviolet?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 [![Live App](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](YOUR_STREAMLIT_LINK)
 
@@ -14,27 +13,15 @@
 
 ---
 
-## 🚀 What is Ragionyx?
+## Overview
 
-Ragionyx is a production-grade Retrieval-Augmented Generation (RAG) engine that converts static PDF documents into a semantic knowledge system.
+Ragionyx is a production-oriented Retrieval-Augmented Generation (RAG) system that transforms unstructured PDFs into a semantically searchable knowledge interface.
 
-It retrieves relevant document context in real time and generates grounded, hallucination-resistant responses using large language models.
-
-Designed with modular architecture, cloud deployment, and scalability in mind.
+Instead of relying on model memory, the system retrieves relevant document context at query time and generates grounded responses, significantly reducing hallucination risk.
 
 ---
 
-# 🎬 Live Demo
-
-<p align="center">
-  <img src="assets/YOUR_GIF_FILE.gif" alt="Ragionyx Demo" width="100%">
-</p>
-
-👉 **[Launch Live Application](https://ragionyx-rag-powered-pdf-intelligence-engine-khmny7zkxtmfszv.streamlit.app)**
-
----
-
-# 🏗 System Architecture
+## System Architecture
 
 <p align="center">
   <img src="assets/ragionyx-architecture.png" alt="Ragionyx Architecture Diagram" width="100%">
@@ -42,89 +29,64 @@ Designed with modular architecture, cloud deployment, and scalability in mind.
 
 ---
 
-# 🧠 System Design Breakdown
+## How It Works
 
-### 1️⃣ Ingestion Layer
-- PDF parsing
-- Structured text extraction
-- Metadata processing
+1. **PDF Ingestion** – Extract structured text from uploaded documents  
+2. **Semantic Chunking** – Overlapping segmentation for contextual continuity  
+3. **Embedding Generation** – Convert text into high-dimensional vectors  
+4. **Vector Indexing (FAISS)** – Efficient cosine similarity search  
+5. **Query Embedding** – Transform user question into vector space  
+6. **Top-K Retrieval** – Fetch most relevant document chunks  
+7. **Context-Grounded Generation** – LLM generates answer using retrieved evidence  
 
-### 2️⃣ Processing Layer
-- Semantic chunking with overlap
-- Token-aware segmentation strategy
-
-### 3️⃣ Embedding Layer
-- OpenAI embedding model
-- High-dimensional vector generation
-
-### 4️⃣ Storage Layer
-- FAISS similarity index
-- Cosine similarity search
-
-### 5️⃣ Retrieval Pipeline
-- Query embedding
-- Top-K chunk retrieval
-- Context injection into prompt template
-
-### 6️⃣ Generation Layer
-- Context-grounded LLM response
-- Temperature control
-- Prompt constraints to reduce hallucination
+The retrieval and generation layers are intentionally decoupled for modular scalability.
 
 ---
 
-# 📊 Performance Metrics
+## Key Engineering Decisions
 
-| Metric                          | Result |
-|----------------------------------|--------|
-| Retrieval Latency                | < 1 sec |
-| Hallucination Reduction          | ~50% |
-| Context Relevance Accuracy       | ~90% |
-| Retrieval Speed Improvement      | ~40% |
-| Embedding Scalability            | Linear scaling |
+- RAG architecture over fine-tuning for dynamic knowledge updates  
+- Semantic search instead of keyword matching  
+- Configurable chunk strategy to balance recall and precision  
+- Context injection to constrain hallucination  
+- Cloud deployment with secure environment-based secret management  
 
 ---
 
-# ⚙️ Core Engineering Decisions
-
-- Retrieval-Augmented architecture instead of fine-tuning
-- Vector search over keyword-based search
-- Strict context grounding for hallucination control
-- Decoupled retrieval and generation layers
-- Cloud-native deployment with secret management
-
----
-
-# 🧩 Tech Stack
+## Tech Stack
 
 - Python  
 - Streamlit  
-- OpenAI API  
+- OpenAI Embeddings  
 - FAISS Vector Store  
 - LangChain  
 
 ---
 
-# 🔮 Scalability Roadmap
+## Live Deployment
 
-- Multi-document knowledge base
-- Distributed vector database (Pinecone / Weaviate)
-- Embedding caching layer
-- Streaming LLM responses
-- Dockerized production deployment
+Production-ready application available here:
+
+👉 **[Launch Ragionyx](YOUR_STREAMLIT_LINK)**
 
 ---
 
-# 🛡 Production Considerations
+## Scalability Path
 
-- Secure environment variable handling
-- Modular pipeline separation
-- Replaceable vector storage backend
-- Scalable indexing architecture
+- Multi-document corpus support  
+- Distributed vector databases (Pinecone / Weaviate)  
+- Embedding caching for cost optimization  
+- Source citation with page-level traceability  
 
 ---
 
-# 👨‍💻 Author
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Author
 
 **Praveen Kumar Kota**  
-AI Engineer  
+AI / ML Engineer  
