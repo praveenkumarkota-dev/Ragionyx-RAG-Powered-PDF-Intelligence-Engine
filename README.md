@@ -63,7 +63,7 @@ The retrieval and generation layers are intentionally decoupled for modular scal
 
 Production-ready application available here:
 
-👉 **[Launch Ragionyx](https//:ragionyx-rag-powered-pdf-intelligence-engine-hzj7uxmp5zrpr3894.streamlit.app)**
+👉 **[Launch Ragionyx](ragionyx-rag-powered-pdf-intelligence-engine-hzj7uxmp5zrpr3894.streamlit.app)**
 
 ---
 
